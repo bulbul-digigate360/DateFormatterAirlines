@@ -16,7 +16,7 @@ public class DateFormatterController {
         this.dateFormatterService = dateFormatterService;
     }
 
-    @GetMapping("/getFormattedDate")
+    @PostMapping("/getFormattedDate")
     public String getFormattedDate(@RequestBody DateFormatter dateFormatter){
 
         return this.dateFormatterService.getDateFormattedDate(dateFormatter);

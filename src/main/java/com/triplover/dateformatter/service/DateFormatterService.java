@@ -1,7 +1,6 @@
 package com.triplover.dateformatter.service;
 
-import com.triplover.dateformatter.airlines.impl.AI;
-import com.triplover.dateformatter.airlines.impl.Common;
+import com.triplover.dateformatter.patterns.impl.Common;
 import com.triplover.dateformatter.model.DateFormatter;
 import org.springframework.stereotype.Service;
 

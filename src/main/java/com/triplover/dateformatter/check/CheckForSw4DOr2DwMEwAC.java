@@ -18,12 +18,12 @@ public class CheckForSw4DOr2DwMEwAC {
         if(vendorRemarks2!=null){
             dateForVR2 = sw4DOr2DwMEwAC.getFormattingDate(vendorRemarks2);
         }
-
         finalValue=dateForVR2;
 
         if(finalValue!=null){
             return finalValue;
         }
         return null;
+        //1954 10OCT DAC
     }
 }
